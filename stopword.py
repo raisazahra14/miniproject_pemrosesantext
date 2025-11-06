@@ -1,7 +1,6 @@
 # ============================================================
 # 🧩 1️⃣ IMPORT LIBRARY
 # ============================================================
-# pip install pandas tqdm Sastrawi nltk wordcloud matplotlib emoji
 import os
 import re
 import emoji
@@ -171,3 +170,4 @@ wc(" ".join(df[df["sentimen"]=="Netral"]["cleaned"]), "WordCloud Ulasan Netral")
 wc(" ".join(df[df["sentimen"]=="Negatif"]["cleaned"]), "WordCloud Ulasan Negatif")
 
 print("\n✅ Semua tahap selesai tanpa error dan hasil siap untuk analisis lanjutan!")
+
